@@ -46,7 +46,7 @@ export default {
 
             let formData = new FormData();
             formData.append('article_title', this.articleTitle);
-            axios.post('http://localhost:8000/api/blog-add-post', formData, {
+            axios.post('https://szambonalata.pl/server/api/blog-add-post', formData, {
                 headers: {
                     'Content-Type': 'multipart/form-data',
                 },

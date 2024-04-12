@@ -47,7 +47,7 @@ export default {
                 }
             
                 const userId = this.$route.params.id;
-                axios.put(`http://localhost:8000/api/change-email-admin/${userId}`, {
+                axios.put(`https://szambonalata.pl/server/api/change-email-admin/${userId}`, {
                     new_email: this.newEmail, 
                     password: this.password
                 })

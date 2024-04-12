@@ -38,7 +38,7 @@ export default {
     },
     methods: {
         fetchData() {
-            axios.get('http://localhost:8000/api/admin-account')
+            axios.get('https://szambonalata.pl/server/api/admin-account')
             .then(response => {
               this.admin = response.data.admin
             })

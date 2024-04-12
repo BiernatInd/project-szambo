@@ -46,7 +46,7 @@ methods: {
         formData.append('photo', this.file);
         formData.append('slug', this.slug);
 
-        axios.post('http://localhost:8000/api/blog-add-photo', formData, {
+        axios.post('https://szambonalata.pl/server/api/blog-add-photo', formData, {
             headers: {
                 'Content-Type': 'multipart/form-data'
             }

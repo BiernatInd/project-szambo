@@ -49,7 +49,7 @@ export default {
     },
     methods: {
         editBlogContent() {
-        axios.put('http://localhost:8000/api/blog-edit-content/' + this.slug, {
+        axios.put('https://szambonalata.pl/server/api/blog-edit-content/' + this.slug, {
             article_number: this.articleNumber,
             article_text: this.newArticleText,
         })
@@ -63,7 +63,7 @@ export default {
         });
     },
         fetchData() {
-            axios.get('http://localhost:8000/api/blog-download-content/' + this.slug)
+            axios.get('https://szambonalata.pl/server/api/blog-download-content/' + this.slug)
             .then(response => {
                 this.blogContents = response.data;
             })

@@ -33,7 +33,7 @@ export default {
     },
     methods: {
         fetchData() {
-            axios.get('http://localhost:8000/api/blog-download-article/' + this.slug)
+            axios.get('https://szambonalata.pl/server/api/blog-download-article/' + this.slug)
             .then(response => {
                 this.blogContents = response.data.blogContents;
                 this.blogImages = response.data.blogImages;

@@ -74,7 +74,7 @@ export default {
     },
     methods: {
         fetchData() {
-            axios.get('http://localhost:8000/api/users-list')
+            axios.get('https://szambonalata.pl/server/api/users-list')
             .then(response => {
                 this.users = response.data.users;
             })
@@ -101,7 +101,7 @@ export default {
             document.body.classList.remove('active');
         },
         deleteUser() {
-        axios.delete(`http://localhost:8000/api/user-delete/${this.selectedId}`)
+        axios.delete(`https://szambonalata.pl/server/api/user-delete/${this.selectedId}`)
             .then(response => {
                 this.fetchData();
                 this.hideConfirmation();

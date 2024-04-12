@@ -50,7 +50,7 @@ export default {
     methods: {
         async fetchBlogData() {
             try {
-                const response = await axios.get('http://localhost:8000/api/blog-download-all-data');
+                const response = await axios.get('https://szambonalata.pl/server/api/blog-download-all-data');
                 this.blogList = response.data.blogList;
                 this.blogImages = response.data.blogImages;
             } catch (error) {
@@ -59,7 +59,7 @@ export default {
         },
         async fetchUserData() {
             try {
-                const response = await axios.get('http://localhost:8000/api/users-list');
+                const response = await axios.get('https://szambonalata.pl/server/api/users-list');
                 this.userList = response.data.users;
             } catch (error) {
                 console.error('Błąd podczas pobierania danych użytkowników:', error);

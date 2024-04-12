@@ -51,7 +51,7 @@ export default {
             formData.append('article_meta_title', this.articleMetaTitle);
             formData.append('article_meta_description', this.articleMetaDescription);
 
-            axios.post(`http://localhost:8000/api/blog-add-meta/${this.slug}`, formData, {
+            axios.post(`https://szambonalata.pl/server/api/blog-add-meta/${this.slug}`, formData, {
                 headers: {
                     'Content-Type': 'multipart/form-data',
                 },

@@ -46,7 +46,7 @@ export default {
             }
 
             try {
-                const response = await axios.post('http://localhost:8000/api/recover-password', {
+                const response = await axios.post('https://szambonalata.pl/server/api/recover-password', {
                     email: this.email,
                 });
 

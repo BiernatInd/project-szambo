@@ -81,7 +81,7 @@ export default {
     },
     methods: {
         fetchData() {
-                axios.get('http://localhost:8000/api/blog-list')
+                axios.get('https://szambonalata.pl/server/api/blog-list')
     .then(response => {
       this.articles = response.data.articles;
     })
@@ -116,7 +116,7 @@ formatData(isoDateTime) {
     },
 
     deleteBlogArticle() {
-        axios.delete(`http://localhost:8000/api/blog-delete-article/${this.selectedSlug}`)
+        axios.delete(`https://szambonalata.pl/server/api/blog-delete-article/${this.selectedSlug}`)
             .then(response => {
                 this.fetchData();
                 this.hideConfirmation();

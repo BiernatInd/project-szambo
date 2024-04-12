@@ -54,7 +54,7 @@ export default {
             }
 
             try {
-                const response = await axios.post('http://localhost:8000/api/login', {
+                const response = await axios.post('https://szambonalata.pl/server/api/login', {
                 email: this.email,
                 user_name: this.user_name,
                 password: this.password,

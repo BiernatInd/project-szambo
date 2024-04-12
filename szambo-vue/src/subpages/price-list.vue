@@ -16,9 +16,9 @@
                         <h3>Wymiary:</h3>
                         <p>240 x 110 x 100</p>
                         <div class="home-button">
-                            <router-link to="/kontakt">
+                            <a href="tel: +48 884 796 548">
                                 <button class="home-btn">Zapytaj o szczegóły</button>
-                            </router-link>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -32,9 +32,9 @@
                         <h3>Wymiary:</h3>
                         <p>250 x 200 x 100</p>
                         <div class="home-button">
-                            <router-link to="/kontakt">
+                            <a href="tel: +48 884 796 548">
                                 <button class="home-btn">Zapytaj o szczegóły</button>
-                            </router-link>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -48,9 +48,9 @@
                         <h3>Wymiary:</h3>
                         <p>250 x 200 x 125</p>
                         <div class="home-button">
-                            <router-link to="/kontakt">
+                            <a href="tel: +48 884 796 548">
                                 <button class="home-btn">Zapytaj o szczegóły</button>
-                            </router-link>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -66,9 +66,9 @@
                         <h3>Wymiary:</h3>
                         <p>250 x 200 x 155</p>
                         <div class="home-button">
-                            <router-link to="/kontakt">
+                            <a href="tel: +48 884 796 548">
                                 <button class="home-btn">Zapytaj o szczegóły</button>
-                            </router-link>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -82,9 +82,9 @@
                         <h3>Wymiary:</h3>
                         <p>300 x 240 x 140</p>
                         <div class="home-button">
-                            <router-link to="/kontakt">
+                            <a href="tel: +48 884 796 548">
                                 <button class="home-btn">Zapytaj o szczegóły</button>
-                            </router-link>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -98,9 +98,9 @@
                         <h3>Wymiary:</h3>
                         <p>300 x 240 x 150</p>
                         <div class="home-button">
-                            <router-link to="/kontakt">
+                            <a href="tel: +48 884 796 548">
                                 <button class="home-btn">Zapytaj o szczegóły</button>
-                            </router-link>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -116,9 +116,9 @@
                         <h3>Wymiary:</h3>
                         <p>300 x 240 x 170</p>
                         <div class="home-button">
-                            <router-link to="/kontakt">
+                            <a href="tel: +48 884 796 548">
                                 <button class="home-btn">Zapytaj o szczegóły</button>
-                            </router-link>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -132,9 +132,9 @@
                         <h3>Wymiary:</h3>
                         <p>295 x 240 x 200</p>
                         <div class="home-button">
-                            <router-link to="/kontakt">
+                            <a href="tel: +48 884 796 548">
                                 <button class="home-btn">Zapytaj o szczegóły</button>
-                            </router-link>
+                            </a>
                         </div>
                     </div>
                 </div>

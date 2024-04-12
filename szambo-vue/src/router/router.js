@@ -259,7 +259,7 @@ router.beforeEach(async (to, from, next) => {
         console.log('Article Name:', slug);
 
         try {
-            const response = await axios.get(`http://localhost:8000/api/blog-download-meta/${slug}`);
+            const response = await axios.get(`https://szambonalata.pl/server/api/blog-download-meta/${slug}`);
             const article = response.data.article;
 
             if (article.article_meta_title) {

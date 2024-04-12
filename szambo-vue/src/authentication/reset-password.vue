@@ -64,7 +64,7 @@ export default {
                 return;
             }
 
-            axios.post(`http://localhost:8000/api/reset-password/${this.token}`, {
+            axios.post(`https://szambonalata.pl/server/api/reset-password/${this.token}`, {
                 password: this.password
             })
             .then(response => {

@@ -65,7 +65,7 @@ export default {
         },
         async fetchBlogData() {
             try {
-                const response = await axios.get('http://localhost:8000/api/blog-download-all-data');
+                const response = await axios.get('https://szambonalata.pl/server/api/blog-download-all-data');
                 this.blogList = response.data.blogList;
                 this.blogImages = response.data.blogImages;
             } catch (error) {

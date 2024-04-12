@@ -52,7 +52,7 @@ export default {
     },
     methods: {
         addBlogContent() {
-            axios.post('http://localhost:8000/api/blog-add-content', {
+            axios.post('https://szambonalata.pl/server/api/blog-add-content', {
                 article_type: this.articleType,
                 article_text: this.articleText,
                 slug: this.slug,
@@ -67,7 +67,7 @@ export default {
             });
         },
         fetchData() {
-            axios.get('http://localhost:8000/api/blog-download-content/' + this.slug)
+            axios.get('https://szambonalata.pl/server/api/blog-download-content/' + this.slug)
             .then(response => {
                 this.blogContents = response.data;
             })
